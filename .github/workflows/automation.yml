@@ -2,5 +2,6 @@ on: push
 jobs:
   first-job:
     runs-on: ubuntu-latest
+    containers: python3
     steps:
       - run: python --version
