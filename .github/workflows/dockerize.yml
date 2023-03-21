@@ -17,7 +17,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: sumedhajagtap/docker-container/python-code:latest
+          tags: sumedhajagtap/docker-container:latest
       # - name: Publish to Docker hub
       #   uses: docker/build-push-action@v2
       #   with:
