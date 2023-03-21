@@ -5,8 +5,8 @@ jobs:
     name: Build docker image
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        run:  actions/checkout@v2
+      # - name: Checkout code
+        # run:  actions/checkout@v2
       - name: Publish to Docker hub
         uses: docker/build-push-action@v1
         with:
