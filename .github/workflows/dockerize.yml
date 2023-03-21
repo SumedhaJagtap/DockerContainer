@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        run:  actions/checkout@V2
+        run:  actions/checkout@v2
       - name: Publish to Docker hub
         uses: docker/build-push-action@v1
         with:
