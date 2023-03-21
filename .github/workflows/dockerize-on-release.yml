@@ -1,4 +1,4 @@
-name: dockerize flask application
+name: dockerize flask application on git release
 on: release
 jobs:
   build-container:
