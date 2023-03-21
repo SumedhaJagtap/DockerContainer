@@ -17,7 +17,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: sumedhajagtap/python-code:${{ $GITHUB_REF }}
+          tags: sumedhajagtap/python-code:${{ github.ref }}
       # - name: Publish to Docker hub
       #   uses: docker/build-push-action@v2
       #   with:
