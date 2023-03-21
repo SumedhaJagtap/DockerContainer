@@ -12,7 +12,7 @@ jobs:
       - name: Build docker image
         run: docker build . -t python-code:${{ github.run_number }}
       - name: Push to docker hub
-        run: docker push sumedhajagtap/docker-container python-code:${{ github.run_number }}
+        run: docker push -t sumedhajagtap/docker-container python-code:${{ github.run_number }}
 
       # - name: Publish to Docker hub
       #   uses: docker/build-push-action@v2
