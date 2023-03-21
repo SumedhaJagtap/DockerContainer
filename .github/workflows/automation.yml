@@ -4,4 +4,5 @@ jobs:
     runs-on: ubuntu-latest
     container: python:3.10.10
     steps:
-      - run: python --version
+      - name: check python version
+        run: python --version
