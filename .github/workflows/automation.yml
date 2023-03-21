@@ -1,3 +1,4 @@
+name: first docker image using git actions
 on: push
 jobs:
   first-job:
