@@ -12,6 +12,6 @@ jobs:
         with:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
-          repository: sumedhajagtap/docker-container/next
+          repository: sumedhajagtap/docker-container
           tags: latest, ${{ github.run_number }}
 
